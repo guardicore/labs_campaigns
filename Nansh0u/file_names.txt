@@ -1,0 +1,25 @@
+# Attack Script
+C:\ProgramData\2.vbs
+
+# Exploits
+C:\ProgramData\apexp.exe
+C:\ProgramData\apexp2012.exe
+
+# Payloads
+apexd.exe
+360protect.exe
+avast.exe
+kvast.exe
+rock.exe
+rocks.exe
+lt.exe
+tl.exe
+tls.exe
+lcn.exe
+lolcn.exe
+
+# Files dropped by payloads
+cfg.bat
+canlang.exe
+dllhot.exe
+

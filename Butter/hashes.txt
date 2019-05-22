@@ -1,0 +1,13 @@
+ae7e865b4da55f0de960a934794e7f3654a6f5475d2a85a9a7f39e4fe9cf53f5	/tmp/2308
+005b29393ffe00e4d0d5736ede871025f6c0c3cb53ec14171396758248e9e3df	/tmp/2072
+c75e40cea99ab863750665187bf1c3a8393c7fef3e2bc67c5e8d2d1085c0b0b2	/tmp/seconfig/samba
+0e0bf4a089e7199dced4ec52e62b029b8df69f843cd2bd8b85da46762d328bbd	/etc/seconfig/samba, /root/linux-gn, /tmp/x86_64
+c9153e2b15def39420e88a058a15f3bc0fde6e6a3bd53ced4a6a6f644b51a935	/tmp/seconfig/samba
+c40a6fac6a7b43fd74aca488d4ec8f9a1a7cc1ac8ef211c131ff56a4e8dd665b	/tmp/seconfig/xorgg, /etc/seconfig/xorgg
+51944f895207232966b6f594feeafdb2b1561f68f832af5c00d7d082bf10007e	/tmp/x86_64
+104c8d9c8ea5dcf68986a80e17fdac95e7d1cfe1f2ce7e5d021ed4d15d2811a7	/tmp/80
+a2c8c26972a9f739127429705db494b369192de6fc44cd4175b00708a6cf5d05	/tmp/x86_64
+f50eae2f3ff71a6556bbc8bcd5b3113511f77fb8ff82ea4eca63af2ce3babb30	/etc/seconfig/samba, /root/linux-gn,
+/tmp/x86_64, /tmp/seconfig/samba
+3555ee8275836151011f4eb0f1c54053c17c883f22aed0ee3bdad0b0213d4dfc	/etc/seconfig/samba, /root/linux-gn,
+/tmp/x86_64, /tmp/seconfig/samba
