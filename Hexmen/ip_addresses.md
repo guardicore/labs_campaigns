@@ -1,5 +1,7 @@
 # IPs of File and Log Servers
 
+Links are to [**Guardicore's Cyber Threat Intelligence**](https://threatintelligence.guardicore.com) (CTI)
+
 * 124.152.219.49 - [view on CTI](https://threatintelligence.guardicore.com/ip/124.152.219.49)
 * 221.194.44.161 - [view on CTI](https://threatintelligence.guardicore.com/ip/221.194.44.161)
 * 123.249.12.230 - [view on CTI](https://threatintelligence.guardicore.com/ip/123.249.12.230)
