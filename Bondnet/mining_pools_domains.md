@@ -1,3 +1,5 @@
+# Mining Pools Domains
+
 **minergate.com** - [view on CTI](https://threatintelligence.guardicore.com/domain/minergate.com)
 
 **miner.center** - [view on CTI](https://threatintelligence.guardicore.com/domain/miner.center)
