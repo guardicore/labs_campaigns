@@ -1,4 +1,0 @@
-lokiturtle.herominers.com:10520
-trtl.cnpool.cc:32516 
-turtle.miner.rocks:5005
-trtl.pool.mine2gether.com:2225
