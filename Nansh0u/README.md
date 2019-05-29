@@ -1,6 +1,6 @@
 # Nansh0u Campaign IoCs 🐢
 
-This repository contains a list of IoCs for the [Nansh0u campaign](link_to_post).
+This repository contains a list of IoCs for the [Nansh0u campaign](https://www.guardicore.com/2019/05/nansh0u-campaign-hackers-arsenal-grows-stronger).
 
 ## Repository Contents 
 * The lists of **common usernames and passowrds** used to break into _MSSQL_ servers
