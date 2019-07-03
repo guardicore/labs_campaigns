@@ -1,4 +1,4 @@
-# Lemon_Duck IoCs and Attack Scripts
+# Lemon_Duck 🍋🦆 - IoCs & Attack Scripts
 
 This repository contains a list of IoCs for the [Lemon_Duck campaign](https://www.twitter.com/),
 as well as the attack scripts used in the campaign.
