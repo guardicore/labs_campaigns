@@ -8,4 +8,4 @@ as well as the attack scripts used in the campaign.
 * A list of attackers source **IP addresses**
 * **Domains** of both attack servers and mining pools
 * The Powershell **attack scripts** used throughout the attack
-* **Common passwords** used by the attacker in the brute-force attempts
+* **Common passwords** used by the attacker in their brute-force attempts
