@@ -1,3 +1,3 @@
 # Usernames
 
-** admin$ Zxcvbnm,.1234
+* admin$ Zxcvbnm,.1234
