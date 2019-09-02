@@ -1,9 +1,9 @@
 # WMI Objects
 
-** fuckyoumm2_filter
+* fuckyoumm2_filter
 
-** fuckyoumm2_consumer
+* fuckyoumm2_consumer
 
-** fuckyoumm3
+* fuckyoumm3
 
-** fuckyoumm4
+* fuckyoumm4
