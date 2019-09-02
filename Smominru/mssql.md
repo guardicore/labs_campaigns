@@ -25,4 +25,3 @@
 * pdoors.exe
 * ftpbacks.exe
 * sc.exe
-* 
