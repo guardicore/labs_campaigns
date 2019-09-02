@@ -1,3 +1,4 @@
 # Usernames
 
-* admin$ Zxcvbnm,.1234
+* user: `admin$`
+* password: `Zxcvbnm,.1234`
