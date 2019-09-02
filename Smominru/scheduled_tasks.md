@@ -2,14 +2,11 @@
 
 ## Scheduled Tasks
 
-** Mysa
-
-** Mysa1
-
-** Mysa2
-
-** Mysa3
+* Mysa
+* Mysa1
+* Mysa2
+* Mysa3
 
 ## Services
 
-** xWinWpdSrv
+* xWinWpdSrv
