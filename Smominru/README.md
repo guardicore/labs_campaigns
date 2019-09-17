@@ -1,6 +1,6 @@
 # Smominru Campaign IoCs
 
-This repository contains a list of IoCs for the [Smominru campaign](https://www.guardicore.com).
+This repository contains a list of IoCs for the [Smominru campaign](https://www.guardicore.com/2019/09/smominru-botnet-attack-breaches-windows-machines-using-eternalblue-exploit).
 
 ## Repository Contents
 * **Names and hashes of files** dropped as part of the attack
