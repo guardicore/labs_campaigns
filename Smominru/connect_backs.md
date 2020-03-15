@@ -25,3 +25,11 @@ Links are to [**Guardicore's Cyber Threat Intelligence**](https://threatintellig
 | 173.208.139.170 |   
 | [173.208.172.202](https://threatintelligence.guardicore.com/ip/173.208.172.202) | [grinknowledge.com](https://threatintelligence.guardicore.com/domain/grinknowledge.com) |
 | | [js.1226bye.xyz](https://threatintelligence.guardicore.com/domain/js.1226bye.xyz)            
+| 103.106.250.161 | |
+| 172.83.155.170 | |
+| 192.236.160.237 | |
+| 80.85.158.117 | |
+| 91.245.225.22 | |
+| 80.85.152.247 | wmi[]().1103bye.xyz |
+| 80.85.152.247 | |
+| 167.88.180.175 | |
