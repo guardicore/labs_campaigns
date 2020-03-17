@@ -26,10 +26,10 @@ Write-Output "Contact us at: labs@guardicore.com`n"
 $serviceFound = Get-Service -Name $SERVICE_NAME
 if ($serviceFound) {
     $VollgarFound = $true
-    Write-Output "[X] Service $SERVICE_NAME was found on this host"
+    Write-Output "[X] Service $SERVICE_NAME was found on this host."
 }
 else {
-    Write-Output "[V] Vollgar's malicious service $SERVICE_NAME was not found on this host"
+    Write-Output "[V] Vollgar's malicious service $SERVICE_NAME was not found on this host."
 }
 
 
@@ -37,10 +37,10 @@ else {
 $userFound = Get-WmiObject -Class Win32_UserAccount -Filter "Name='$USER_NAME'"
 if ($userFound) {
     $VollgarFound = $true
-    Write-Output "[X] User $USER_NAME was found on this host"
+    Write-Output "[X] User $USER_NAME was found on this host."
 }
 else {
-    Write-Output "[V] Vollgar's local user $USER_NAME was not found on this host"
+    Write-Output "[V] Vollgar's local user $USER_NAME was not found on this host."
 }
 
 
@@ -49,11 +49,11 @@ $payloadsFound = $false
 foreach ($pn in $FILE_PATHS) {
     if ([System.IO.File]::Exists($pn)) {
         $VollgarFound = $payloadsFound = $true
-        Write-Output "[X] A malicious payload was found in $pn"
+        Write-Output "[X] A malicious payload was found in $pn."
     }
 }
 if (!$payloadsFound) {
-    Write-Output "[V] No malicious payloads were found"
+    Write-Output "[V] No malicious payloads were found."
 }
 
 
@@ -63,18 +63,18 @@ foreach ($tn in $SCHEDULED_TASKS_NAMES) {
     $taskObj = schtasks.exe /Query /TN $tn 2>$null
     if ($taskObj) {
         $VollgarFound = $schedtaskFound = $true
-        Write-Output "[X] A malicious scheduled task '$tn' was found on this host"
+        Write-Output "[X] A malicious scheduled task '$tn' was found on this host."
     }
 }
 if (!$schedtaskFound) {
-    Write-Output "[V] No malicious scheduled tasks were found"
+    Write-Output "[V] No malicious scheduled tasks were found."
 }
 
 # Summary
 if ($VollgarFound) {
-    Write-Output "`n[X] Evidence for the Vollgar campaign has been found on this host"
+    Write-Output "`n[X] Evidence for the Vollgar campaign has been found on this host."
 }
 else {
-    Write-Output "`n[V] No evidence for the Vollgar campaign has been found on this host"
+    Write-Output "`n[V] No evidence for the Vollgar campaign has been found on this host."
 }
 
