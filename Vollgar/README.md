@@ -1,6 +1,6 @@
 # Vollgar Campaign IoCs
 
-This repository contains a list of IoCs for the [Vollgar campaign](https://www.guardicore.com).
+This repository contains a list of IoCs for the [Vollgar campaign](https://www.guardicore.com/2020/03/the-vollgar-campaign-ms-sql-servers-under-attack/).
 
 ## Repository Contents
 * Names of **binary files and script** dropped as part of the attack
