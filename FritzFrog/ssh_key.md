@@ -1,0 +1,7 @@
+# SSH Key
+
+The following is the public SSH key written to _authorized_keys_ by FritzFrog.
+
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJYZIsncBTFc+iCRHXkeGfFA67j+kUVf7h/IL+sh0RXJn7yDN0vEXz7ig73hC//2/71sND+x+Wu0zytQhZxrCPzimSyC8FJCRtcqDATSjvWsIoI4j/AJyKk5k3fCzjPex3moc48TEYiSbAgXYVQ62uNhx7ylug50nTcUH1BNKDiknXjnZfueiqAO1vcgNLH4qfqIj7WWXu8YgFJ9qwYmwbMm+S7jYYgCtD107bpSR7/WoXSr1/SJLGX6Hg1sTet2USiNevGbfqNzciNxOp08hHQIYp2W9sMuo02pXj9nEoiximR4gSKrNoVesqNZMcVA0Kku01uOuOBAOReN7KJQBt
+```
