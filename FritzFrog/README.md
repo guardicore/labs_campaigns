@@ -21,7 +21,7 @@ The script detects checks whether:
 If two of these conditions hold, there's a high chance the machine is infected.
 
 ```
-ubuntu@ip-172-31-36-54:~$ ./detect_fritzfrog.sh
+ubuntu@ip-111-11-11-11:~$ ./detect_fritzfrog.sh
 FritzFrog Detection Script by Guardicore Labs
 =============================================
 
