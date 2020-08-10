@@ -1,4 +1,4 @@
-# FritzFrog Campaign IoCs
+# FritzFrog Campaign IoCs 🐸
 
 This repository contains a list of IoCs and a detection tool for the [FritzFrog campaign](https://www.guardicore.com/2020/08/fritzfrog).
 
