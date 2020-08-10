@@ -1,33 +1,38 @@
-# Smominru Campaign IoCs
+# FritzFrog Campaign IoCs
 
-This repository contains a list of IoCs for the [Smominru campaign](https://www.guardicore.com/2019/09/smominru-botnet-attack-breaches-windows-machines-using-eternalblue-exploit).
+This repository contains a list of IoCs and a detection tool for the [FritzFrog campaign](https://www.guardicore.com/2020/08/fritzfrog).
 
 ## Repository Contents
 * **Names and hashes of files** dropped as part of the attack
-* **Connect-back servers'** domains and IP addresses
-* Names of **scheduled tasks and services** set by the attacker
-* Names of **WMI objects** created by the attacker
-* **Usernames** created by the attacker
-* **MS-SQL usernames and jobs** created by the attacker
+* **Source IP addresses** from which attacks on Guardicore Global Sensors Network were seen
+* IP addresses of **connect-back machines**, allegedly infected by the malware
+* **Public SSH key** used by the attacker as a backdoor
 
-## Detection Script - *detect_smominru.ps1*
+## Detection Script - *detect_fritzfrog.sh*
 ### Running the Script
-Open a PowerShell command prompt and run
+Open a Linux terminal and run
 ```
-.\detect_smominru.ps1
+.\detect_fritzfrog.sh
 ```
-The script detects traces of the campaign's attacks:
-1. Payload files in different paths
-2. Registry keys
-3. Scheduled tasks
-4. Services
-5. WMI objects
+The script detects checks whether:
+1. A fileless process named _nginx / ifconfig / libexec / php-fpm_ is running
+2. Port 1234 is listening
 
-If the machine has any such residues, the output will contain the sentence 
+If two of these conditions hold, there's a high chance the machine is infected.
+
 ```
-Evidence for the Smominru campaign has been found on this host.
+ubuntu@ip-172-31-36-54:~$ ./detect_fritzfrog.sh
+FritzFrog Detection Script by Guardicore Labs
+=============================================
+
+[*] Fileless process nginx is running on the server.
+[*] Listening on port 1234
+[*] High chances FritzFrog is running on this machine.
 ```
+
 In such case, you should:
-* remove traces of the attack (the payload paths will be printed out)
-* remove the malicious service, scheduled tasks and WMI objects
-* patch your operating system and choose strong credentials, to avoid reinfection
+* kill the malicious processes
+* block traffic on ports 1234 (P2P communication) and 5555 (cryptominer)
+* block traffic to domain `xmrpool.eu`
+
+You are welcome to [contact us](mailto:labs@guardicore.com) for assistance with mitigating the threat.
