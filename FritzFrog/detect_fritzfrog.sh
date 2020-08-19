@@ -14,7 +14,7 @@ do
     fi
 done
 
-if [[ $(netstat -ano | grep LISTEN | grep 1234) ]]; then
+if [[ $(netstat -ano | grep LISTEN | grep -w 1234) ]]; then
     listening_port=true
     echo "[*] Listening on port 1234"
 fi
