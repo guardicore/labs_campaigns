@@ -12,7 +12,7 @@ This repository contains a list of IoCs and a detection tool for the [FritzFrog 
 ### Running the Script
 Open a Linux terminal and run
 ```
-.\detect_fritzfrog.sh
+./detect_fritzfrog.sh
 ```
 The script detects checks whether:
 1. a fileless process named _nginx / ifconfig / libexec / php-fpm_ is running
