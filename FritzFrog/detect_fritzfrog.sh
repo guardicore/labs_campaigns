@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "FritzFrog Detection Script by Guardicore Labs"
 echo -e "=============================================\n"
 
