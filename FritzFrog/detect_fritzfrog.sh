@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
+
 echo 'FritzFrog Detection Script by Guardicore Labs
-=============================================
-'
 
 proc_names='nginx ifconfig libexec php-fpm'
 malicious_proc=false
