@@ -9,11 +9,10 @@ listening_port=false
 
 for pn in $proc_names
 do
-    exe_path=$(ls -l /proc/$(pidof $pn)/exe 2>/dev/null | grep deleted)
-    if [ -n "$exe_path" ]; then
+    ls -l /proc/$(pidof $pn)/exe 2>/dev/null | grep -q deleted && {
         malicious_proc=true
         echo "[*] Fileless process $pn is running on the server."
-    fi
+    }
 done
 
 netstat -ano | grep LISTEN | grep -q 1234 && {
