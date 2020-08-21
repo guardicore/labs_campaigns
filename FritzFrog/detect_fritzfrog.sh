@@ -14,7 +14,7 @@ do
     }
 done
 
-netstat -ano | grep LISTEN | grep -wq 1234 && {
+netstat -lno | grep -wq 1234 && {
     listening_port=true
     echo '[*] Listening on port 1234'
 }
