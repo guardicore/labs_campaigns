@@ -18,13 +18,24 @@ The script checks whether one of the host IOCs is present on the machine.
 If so, there's a high chance the machine is infected and the script will alert on that.
 
 ```
-ubuntu@ip-111-11-11-11:~$ ./detect_fritzfrog.sh
-FritzFrog Detection Script by Guardicore Labs
-=============================================
+PS C:\labs_campaigns\Indexsinas> .\detect_indexsinas.ps1
+Indexsinas Campaign Detection Tool
+Written By Guardicore Labs
+Contact us at: labs@guardicore.com
 
-[*] Fileless process nginx is running on the server.
-[*] Listening on port 1234
-[*] High chances FritzFrog is running on this machine.
+[V] Indexsinas's malicious service MicrosoftMysql was not found on this host.
+[V] Indexsinas's malicious service MicrosoftMssql was not found on this host.
+[V] Indexsinas's malicious service MicrosotMaims was not found on this host.
+[V] Indexsinas's malicious service MicrosotMais was not found on this host.
+[V] Indexsinas's malicious service serivces was not found on this host.
+[V] No malicious service was found.
+[V] Indexsinas's local user mm123$ was not found on this host.
+[V] No malicious payloads were found.
+[V] Indexsinas's scheduled task At1 was not found on this host.
+[V] Indexsinas's scheduled task At2 was not found on this host.
+[V] No malicious scheduled tasks were found.
+
+[V] No evidence for the Indexsinas campaign has been found on this host.
 ```
 
 In such case, you should:
