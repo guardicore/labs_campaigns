@@ -31,3 +31,7 @@
 |wai.bat|`cd6fd2959b8ec762511f6c36adfb35bb`|
 |wget.exe|`bd126a7b59d5d1f97ba89a3e71425731`|
 |xsfxdel~.exe|`a48b642733b4ed0b2f63c726bea5710f`|
+|conhost.exe|`6f5696c20c4335656a7be7770c9f8c30`|
+|chost.bat|`aa8413a8ae68bfe11664d3df334e6153`|
+|d1lhots.exe|`0e99addab995e60de5a7eaded0e21c3c`|
+||`586c1290df2294dae8d375e2a7326bba`|
