@@ -1,6 +1,6 @@
 # Indexsinas (NSABuffMiner) Campaign IoCs
 
-This repository contains a list of IoCs and a detection tool for the [Indexsinas campaign]().
+This repository contains a list of IoCs and a detection tool for the [Indexsinas campaign](https://www.guardicore.com/labs/smb-worm-indexsinas/).
 
 ## Repository Contents
 * **Names and hashes of files** dropped as part of the attack
@@ -38,9 +38,10 @@ Contact us at: labs@guardicore.com
 [V] No evidence for the Indexsinas campaign has been found on this host.
 ```
 
-In such case, you should:
-* remove the malicious services, scheduled tasks and backdoor users
-* terminate Indexsinas-related processes
-* segment traffic to SMB servers in your network
+## Mitigation Recommendations
+In case of infection, you should:
+* **segment the SMB servers** in your network. Consider disconnecting infected servers from the internet, to prevent it from infecting additional machines and communicating with Indexsinas C2 server.
+* **remove malicious residues**: services, scheduled tasks and backdoor users
+* **terminate processes related to Indexsinas**. See details in the [blog post](https://www.guardicore.com/labs/smb-worm-indexsinas/).
 
 You are welcome to [contact us](mailto:labs@guardicore.com) for assistance with mitigating the threat.
