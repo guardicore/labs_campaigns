@@ -8,7 +8,7 @@ This repository contains a list of Autodiscover domains with all possible TLDs a
 
 ## Implementing the contents of this file
 The local *hosts* file gives you the ability to override DNS resolutions. 
-A hostname in the *hosts* file will be resolved to the IP address was hardcoded in the file. The contents of this file are mapping all possible autodiscover.[tld] domains to be resolved as 127.0.0.1 in order to keep from credentials to leak outside of your network.
+A hostname in the *hosts* file will be resolved to the IP address was hardcoded in the file. The contents of this file are mapping all possible autodiscover.[tld] domains to be resolved as 127.0.0.1 in order to keep credentials from leaking outside of your network.
 
 Various operating systems have their *hosts* file in a different localtion:
 
