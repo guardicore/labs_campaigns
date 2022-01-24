@@ -2,7 +2,7 @@
 
 echo 'FritzFrog Detection Script by Guardicore Labs'
 
-proc_names='nginx ifconfig libexec php-fpm'
+proc_names='nginx ifconfig libexec php-fpm apache2'
 malicious_proc=false
 listening_port=false
 

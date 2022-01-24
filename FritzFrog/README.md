@@ -15,7 +15,7 @@ Open a Linux terminal and run
 ./detect_fritzfrog.sh
 ```
 The script detects checks whether:
-1. a fileless process named _nginx / ifconfig / libexec / php-fpm_ is running
+1. a fileless process named _nginx / ifconfig / libexec / php-fpm / apache2_ is running
 2. port 1234 is listening
 
 If two of these conditions hold, there's a high chance the machine is infected.
